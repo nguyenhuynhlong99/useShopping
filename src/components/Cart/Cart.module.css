@@ -1,0 +1,68 @@
+.container {
+  padding: 20px;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart0 {
+  display: grid;
+}
+
+.noItems {
+  text-align: center;
+}
+
+.noItems h3 {
+  font-size: 38px;
+  color: var(--color-primary);
+}
+
+.noItems p {
+  font-size: 20px;
+}
+
+.img {
+  max-width: 380px;
+}
+
+.goBack {
+  display: grid;
+  place-content: center;
+  margin-top: 20px;
+}
+
+.goBack a {
+  font-size: 20px;
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+.cartList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow: auto;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+}
+
+.heading h2 {
+  margin: auto;
+}
+
+.heading a {
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .img {
+    max-width: 480px;
+  }
+}
